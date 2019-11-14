@@ -1,0 +1,38 @@
+header {
+    background: linear-gradient(60deg, rgba(241,122,176,1) 0%, rgba(44,172,240,1) 50%, rgba(251,170,80,1) 100%);
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo {
+    width: 30%;
+    margin: 0 auto;
+    fill: $primaryWhite;
+    padding-top: 50px;
+}
+
+button {
+    border: 0;
+    width: 250px;
+    padding: 10px;
+    background-color: $primaryWhite;
+    color: $lizzoBlue;
+    font-family: $baseFont;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: .4rem;
+    text-align: center;
+    margin: 0 auto;
+    &:hover {
+        background-color: $lizzoPeach;
+        color: $primaryWhite;
+    }
+}
+
+img {
+    padding-top: 2%;
+    height: 350px;
+    margin: 0 auto;
+
+}

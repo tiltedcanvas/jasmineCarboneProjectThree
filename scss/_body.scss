@@ -1,0 +1,43 @@
+// body {
+//     background-color: $backgroundColour;
+//     @include mq-tablet {
+//         background-color: $primaryBlack;
+//     }
+// }
+html {
+    font-size: 125%;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mobileNav,
+.toggle {
+    display: none;
+}
+
+
+h1 {
+    font-family: $secondaryFont;
+    text-align: center;
+    font-size: 4rem;
+    color: $primaryWhite;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+h2,
+p {
+    font-family: $baseFont;
+    color: $primaryWhite;
+}
+
+.flexParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
