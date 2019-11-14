@@ -317,6 +317,24 @@ img {
   margin: 0 auto;
 }
 
+form {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 70%;
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+form h2 {
+  color: #2CACF0;
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
 .lizzoPink,
 .lizzoBlue,
 .lizzoPeach {
@@ -333,4 +351,37 @@ img {
 
 .lizzoPeach {
   background: #FBAA50;
+}
+
+.flag {
+  width: 100px;
+  height: 80px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding-top: 15px;
+  position: relative;
+  background: #ffffff;
+  font-size: .7rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 13px #F17AB0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.flag p {
+  color: #FBAA50;
 }

@@ -1,0 +1,17 @@
+form {
+    background: $primaryWhite;
+    border-radius: 50px;
+    width: 70%;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+
+}
+form h2{
+    color: $lizzoBlue;
+}
+
+label {
+    font-family: $baseFont;
+    text-transform: uppercase;
+}

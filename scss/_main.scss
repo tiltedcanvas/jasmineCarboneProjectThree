@@ -14,3 +14,58 @@
 .lizzoPeach {
     background: $lizzoPeach;
 }
+
+
+//talk bubble css from css-tricks
+// #talkbubble {
+//     width: 120px;
+//     height: 80px;
+//     background: red;
+//     position: relative;
+//     -moz-border-radius: 10px;
+//     -webkit-border-radius: 10px;
+//     border-radius: 10px;
+//   }
+//   #talkbubble:before {
+//     content: "";
+//     position: absolute;
+//     right: 100%;
+//     top: 26px;
+//     width: 0;
+//     height: 0;
+//     border-top: 13px solid transparent;
+//     border-right: 26px solid red;
+//     border-bottom: 13px solid transparent;
+//   }
+
+
+//flag by zoe rooney at https://codepen.io/zoerooney/pen/xIoCn
+.flag {
+    width: 100px;
+    height: 80px;
+    box-sizing: content-box;
+    padding-top: 15px;
+    position: relative;
+    background: $primaryWhite;
+    font-size: .7rem;
+    font-weight: 700;
+    font-family: $baseFont;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.flag:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 13px $lizzoPink;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+.flag p{
+    color: $lizzoPeach;
+}
