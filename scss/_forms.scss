@@ -9,9 +9,29 @@ form {
 }
 form h2{
     color: $lizzoBlue;
+    font-family: $secondaryFont;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 label {
     font-family: $baseFont;
     text-transform: uppercase;
+}
+
+input[type=submit]{
+    width: 200px;
+    border: 0;
+    background: $lizzoPeach;
+    color: $primaryWhite;
+    padding: 15px;
+    transition: ease .3s;
+    &:hover {
+        background: $lizzoBlue;
+        transition: ease .3s;
+    }
+}
+
+input[type=radio] {
+    border: 1px solid red;
 }

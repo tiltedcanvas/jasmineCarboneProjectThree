@@ -41,31 +41,37 @@
 
 //flag by zoe rooney at https://codepen.io/zoerooney/pen/xIoCn
 .flag {
-    width: 100px;
-    height: 80px;
-    box-sizing: content-box;
-    padding-top: 15px;
-    position: relative;
-    background: $primaryWhite;
-    font-size: .7rem;
-    font-weight: 700;
-    font-family: $baseFont;
-    letter-spacing: 0.2em;
-    text-align: center;
-    text-transform: uppercase;
-    margin-left: 10px;
-}
-.flag:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-bottom: 13px $lizzoPink;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-}
-.flag p{
-    color: $lizzoPeach;
-}
+    height: 125px; 
+    width: 100px; 
+    border-left: 50px solid $lizzoPeach; 
+    border-right: 50px solid $lizzoPeach; 
+    border-bottom: 39px solid transparent;
+    margin-left: 20px;
+    margin-top: -20px;
+    position: fixed;
+    }
+
+    .flag p {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-family: $baseFont;
+        display: inline-block;
+        text-align: center;        
+        position: absolute;
+        padding: 10px;
+        font-size: .6rem;
+        letter-spacing: .3rem;
+        margin-left: -50px;
+        margin-top: 20px;
+        }
+    .flag a {
+        width: 1px;
+        height: 1px;
+        padding: 50px;
+        display: block;
+        margin-left: -50px;
+        margin-top: 20px;
+        z-index: -1;
+        border: 1px solid red;
+        opacity: 0;
+    }

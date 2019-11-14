@@ -6,6 +6,7 @@
 // }
 html {
     font-size: 125%;
+    scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -26,7 +27,7 @@ h1 {
     font-size: 4rem;
     color: $primaryWhite;
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 h2,
