@@ -9,6 +9,13 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background: linear-gradient(60deg, rgba(241,122,176,1) 0%, rgba(44,172,240,1) 50%, rgba(251,170,80,1) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
 .wrapper {
     width: 90%;
     max-width: 1200px;

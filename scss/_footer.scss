@@ -1,0 +1,15 @@
+footer {
+    background: $primaryWhite;
+    padding: 5px;
+    border-top: 2px solid $lizzoPink;
+}
+footer p,
+footer a {
+    text-align: center;
+    color: $lizzoPink;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .6rem;
+    line-height: normal;
+    font-family: $baseFont;
+}

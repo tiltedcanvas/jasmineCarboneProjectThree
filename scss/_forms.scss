@@ -1,6 +1,5 @@
 form {
     background: $primaryWhite;
-    border-radius: 50px;
     width: 70%;
     text-align: center;
     padding: 50px;
@@ -14,24 +13,71 @@ form h2{
     font-weight: 400;
 }
 
-label {
-    font-family: $baseFont;
-    text-transform: uppercase;
-}
+
 
 input[type=submit]{
+    margin-top: 3%;
     width: 200px;
     border: 0;
-    background: $lizzoPeach;
+    background: $lizzoBlue;
     color: $primaryWhite;
     padding: 15px;
     transition: ease .3s;
     &:hover {
-        background: $lizzoBlue;
+        background: $lizzoPink;
         transition: ease .3s;
     }
 }
 
-input[type=radio] {
-    border: 1px solid red;
+
+
+.form-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: $lizzoBlue;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border: 0;
+    border-radius: 50px;    
+    margin-right: 7px;
+    outline: none;
+    transition: ease 1s;
+    &:hover {
+        background: lighten($lizzoBlue, 40%);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+        transition: ease 1s;
+    }
+    &:checked {
+        background: $primaryWhite;
+    }
 }
+.form-radio:checked::before
+{
+    position: absolute;
+    // font: 13px/1 'Open Sans', sans-serif;
+    left: 0px;
+    top: 0px;
+    font-size: 1.5rem;
+    content: '🍑';
+    transform: rotate(30deg);
+}
+
+label {
+    font-family: $baseFont;
+    color: $primaryBlack;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+
