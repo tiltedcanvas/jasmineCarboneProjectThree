@@ -378,6 +378,19 @@ img:hover {
           animation: slideInRight 3s;
 }
 
+.flexUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexContents {
+  width: 50%;
+}
+
 form {
   background: #ffffff;
   width: 70%;
@@ -410,14 +423,14 @@ input[type=submit]:hover {
   transition: ease .3s;
 }
 
-.form-radio {
+.formRadio {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   display: inline-block;
   position: relative;
   background-color: #2CACF0;
-  top: 10px;
+  top: 0px;
   height: 30px;
   width: 30px;
   border: 0;
@@ -428,7 +441,7 @@ input[type=submit]:hover {
   transition: ease 1s;
 }
 
-.form-radio:hover {
+.formRadio:hover {
   background: #eaf7fe;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -436,11 +449,11 @@ input[type=submit]:hover {
   transition: ease 1s;
 }
 
-.form-radio:checked {
+.formRadio:checked {
   background: #ffffff;
 }
 
-.form-radio:checked::before {
+.formRadio:checked::before {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -456,23 +469,21 @@ label {
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
+  text-align: left;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.lizzoPink,
-.lizzoBlue,
-.lizzoPeach {
-  padding: 100px 0;
-}
-
-.flexUp {
+.flexAnswer {
+  padding: 5px 0;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+
+section {
+  padding: 50px 0;
 }
 
 footer {
