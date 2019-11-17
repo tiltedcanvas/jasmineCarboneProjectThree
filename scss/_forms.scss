@@ -4,7 +4,7 @@
 }
 
 .flexContents {
-    width: 50%;
+    width: 100%;
 }
 
 form {
@@ -88,6 +88,7 @@ label {
     text-align: left;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    width: 100%;
 } 
 
 
@@ -98,3 +99,4 @@ label {
     // flex-direction: row-reverse;
     // justify-content: space-between;
 }
+

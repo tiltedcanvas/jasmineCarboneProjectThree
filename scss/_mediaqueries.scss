@@ -1,0 +1,73 @@
+/* 
+---------------------- 
+@media Styles 
+---------------------- 
+*/
+/* Medium Large Device Media Tags Begin */
+@media (max-width: 940px) { 
+    body {
+        border: 1px solid red;
+    }
+    .flexInsideContainer {
+        flex-wrap: wrap;
+
+
+    }
+    img {
+        height: 200px;
+    }
+    .answerImage,
+    .answerOptions {
+        width: 50%;
+    }
+
+}
+/* Medium Large Device Media Tags Ends */
+
+/* Medium Small Device Media Tags Starts */
+@media (max-width: 784px) { 
+    body {
+        border: 1px solid lime;
+    }
+    .wrapper {
+        width: 90%;
+    }
+    form {
+        width: 90%;
+    }
+
+    .answerImage {
+        display: none;
+    }
+
+    h1 {
+        width: 75%;
+        font-size: 2.6rem;
+        text-align: center;
+        margin: 30px auto;
+    }
+
+}    
+
+/* Medium Small Device Media Tags Ends */
+
+/* Small Device Media Tags Begin */
+@media (max-width: 450px) {
+    body {
+        border: 1px solid hotpink;
+    }
+
+
+    
+}
+/* Small Device Media Tags Ends */
+
+    
+/* Tiny Device Media Tags Begin */
+@media (max-width: 320px) {
+    body {
+        border: 1px solid cyan;
+    }
+}
+/* Tiny Device Media Tags Ends */
+    

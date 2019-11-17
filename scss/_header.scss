@@ -64,6 +64,16 @@ button {
         transition: ease .3s;
     }
 }
+.nextQuestion,
+.finishQuiz {
+    margin-top: 20px;
+    background: $lizzoBlue;
+    color: $primaryWhite;
+    &:hover {
+        background: $lizzoPeach;
+        color: $primaryWhite;
+    }
+}
 
 .unWrapped {
     width: 100%;
