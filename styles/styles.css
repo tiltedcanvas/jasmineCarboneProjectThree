@@ -486,6 +486,95 @@ section {
   padding: 50px 0;
 }
 
+.popupLizzo {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.circular-sb {
+  width: 250px;
+  border: 5px solid #ffffff;
+  background: #ffffff;
+  padding: 80px 0px;
+  margin: 30px auto;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Shadows Into Light", cursive;
+  position: relative;
+  color: #F17AB0;
+}
+
+/*right circle shape speech bubble*/
+.circle1 {
+  border: 5px solid #ffffff;
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 50%;
+  right: -15px;
+  bottom: 23px;
+}
+
+.circle1:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  right: 0px;
+  bottom: 0px;
+  background: #ffffff;
+}
+
+.circle2 {
+  border: 5px solid #ffffff;
+  background: #ffffff;
+  position: absolute;
+  width: 5px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  right: -60px;
+  bottom: 5px;
+}
+
+/*left circle shape speech bubble*/
+.circle3 {
+  border: 5px solid #ffffff;
+  background: #ffffff;
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  left: -10px;
+  bottom: 10px;
+}
+
+.circle3:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  right: 0px;
+  bottom: 0px;
+  background: #ffffff;
+}
+
+.circle4 {
+  border: 5px solid #ffffff;
+  background: #ffffff;
+  position: absolute;
+  width: 5px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  left: -60px;
+  bottom: 5px;
+}
+
 footer {
   background: #ffffff;
   padding: 5px;
