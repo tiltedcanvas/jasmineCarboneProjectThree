@@ -245,6 +245,7 @@ body {
   background: linear-gradient(60deg, #f17ab0 0%, #2cacf0 50%, #fbaa50 100%);
   background-attachment: fixed;
   background-size: cover;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -498,6 +499,7 @@ label {
 
 section {
   padding: 50px 0;
+  min-height: 100vh;
 }
 
 .flexInsideContainer {
@@ -524,6 +526,22 @@ section {
   position: fixed;
   bottom: 0;
   left: 0;
+}
+
+.final {
+  position: relative;
+}
+
+.results {
+  display: none;
+  background: #ffffff;
+  position: absolute;
+  width: 80%;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 footer {
