@@ -5,9 +5,6 @@
 */
 /* Medium Large Device Media Tags Begin */
 @media (max-width: 940px) { 
-    body {
-        border: 1px solid red;
-    }
     .flexInsideContainer {
         flex-wrap: wrap;
 
@@ -26,9 +23,6 @@
 
 /* Medium Small Device Media Tags Starts */
 @media (max-width: 784px) { 
-    body {
-        border: 1px solid lime;
-    }
     .wrapper {
         width: 90%;
     }
@@ -54,8 +48,8 @@
 
 /* Small Device Media Tags Begin */
 @media (max-width: 450px) {
-    body {
-        border: 1px solid hotpink;
+    .lizzoStartImage {
+        display: none;
     }
     .logo {
         width: 60%;
@@ -65,6 +59,7 @@
     }
     h1 {
         font-size: 2rem;
+        margin: 50px auto;
     }
 
     form {
@@ -111,11 +106,9 @@
 /* Small Device Media Tags Ends */
 
     
-/* Tiny Device Media Tags Begin */
-@media (max-width: 320px) {
-    body {
-        border: 1px solid cyan;
-    }
-}
+/* Tiny Device Media Tags Begin If Needed */
+// @media (max-width: 320px) {
+
+// }
 /* Tiny Device Media Tags Ends */
     
