@@ -393,8 +393,8 @@ button:hover {
   color: #ffffff;
 }
 
-.unWrapped {
-  width: 100%;
+.startImage {
+  width: 40%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -542,12 +542,6 @@ section {
 
 .answerOptions {
   width: 50%;
-}
-
-.popupLizzo {
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
 
 .final {
