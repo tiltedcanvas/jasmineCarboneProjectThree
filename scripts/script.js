@@ -4,28 +4,28 @@ const songOptions = [
         id:'songOne',
         score: 0,
         label: 'Juice',
-        url: 'https://open.spotify.com/track/0k664IuFwVP557Gnx7RhIl?si=nMU3pjZGSk2bihvRKTZeoQ',
+        url: 'https://youtu.be/XaCrQL_8eMY',
         description: 'You know that you are cute but did you also know that you are utterly pure and divine? Baby don\'t you ever let anyone dim your shine. You can blame it on the goose, the choose or the caboose, but it\'s certainly not your fault. You the whole damn meal, and that is perfection.'
     },
     {       
         id:'songTwo',
         score: 0,
         label: 'Soulmate',
-        url: 'https://open.spotify.com/track/6h2wpo2pshM8QnAvRySEO0?si=SQo1QkxqT3GVpbbjd01CFw',
+        url: 'https://youtu.be/iQJ7b_xfF2s',
         description: 'True love isn\'t something you can buy yourself and you\'re out there proving that every dang day. Loving yourself is no easy task but you are rocking it. Baby, you get those extra fries cause life is hard sometimes, and you deserve to treat yourself! '
     },
     {        
         id:'songThree',
         score: 0,
         label: 'Truth Hurts',
-        url: 'https://open.spotify.com/track/5qmq61DAAOUaW8AUo8xKhh?si=KaZLJu7SRc6HxhWdR2E24w',
+        url: 'https://youtu.be/P00HMxdsVZI',
         description: 'Well, you just took a Lizzo quizzo and turns out you ARE 100% that bitch, and baby thats the best way to be. Go get your nails done and feel good about who you are, because who YOU are is great and powerful and you get to set your own damn rules. '
     },
     {        
         id:'songFour',
         score: 0,
         label: 'Good As Hell',
-        url: 'https://open.spotify.com/track/3Yh9lZcWyKrK9GjbhuS0hR?si=cRLZPBqxSNWniuBZcrZebg',
+        url: 'https://youtu.be/xZdj3LM5X1M',
         description: 'I hope you know that you are a star and you can touch the sky. You are a glorious and divine human being who deserves the whole damn world. Toss your hair, check them nails and kick down any door that stands in your way because you deserve to feel good as hell.'
     },
 
@@ -33,7 +33,7 @@ const songOptions = [
         id:'songFive',
         score: 0,
         label: 'Cuz I Love You',
-        url: 'https://open.spotify.com/track/5gkFxBuUuASmNtmq0T5xSu?si=F9OJBwyxR7yizzWXpYVs6Q',
+        url: 'https://youtu.be/NqjPqsry7no',
         description: 'You know all that love that you love to give to the people in your life? I hope you know that you deserve all of that love back equally. It\'s ok to cry it out when you need to, but when you need a reminder; you are loveable, your soul is beautiful and you are worthy of so much love.'
     },
 ]
