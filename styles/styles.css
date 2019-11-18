@@ -670,9 +670,6 @@ section {
 /* Medium Small Device Media Tags Ends */
 /* Small Device Media Tags Begin */
 @media (max-width: 516px) {
-  body {
-    border: 1px solid deeppink;
-  }
   .lizzoStartImage {
     display: none;
   }
@@ -727,10 +724,4 @@ section {
 
 /* Small Device Media Tags Ends */
 /* Tiny Device Media Tags Begin If Needed */
-@media (max-width: 420px) {
-  body {
-    border: 1px solid red;
-  }
-}
-
 /* Tiny Device Media Tags Ends */

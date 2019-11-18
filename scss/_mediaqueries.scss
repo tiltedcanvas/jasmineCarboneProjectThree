@@ -60,10 +60,6 @@
 
 /* Small Device Media Tags Begin */
 @media (max-width: 516px) {
-
-    body {
-        border: 1px solid deeppink;
-    }
     .lizzoStartImage {
         display: none;
     }
@@ -130,10 +126,8 @@
 
     
 /* Tiny Device Media Tags Begin If Needed */
-@media (max-width: 420px) {
-body {
-    border: 1px solid red;
-}
-}
+// @media (max-width: 420px) {
+
+// }
 /* Tiny Device Media Tags Ends */
     
