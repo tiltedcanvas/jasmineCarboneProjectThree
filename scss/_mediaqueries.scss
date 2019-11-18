@@ -60,6 +60,10 @@
 
 /* Small Device Media Tags Begin */
 @media (max-width: 516px) {
+    section {
+        padding: 10px 0;
+        height: 100%;
+    }
     .lizzoStartImage {
         display: none;
     }
