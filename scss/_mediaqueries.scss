@@ -23,9 +23,6 @@
 
 /* Medium Small Device Media Tags Starts */
 @media (max-width: 784px) { 
-    body {
-        border: 1px solid cyan;
-    }
     .wrapper {
         width: 90%;
     }
@@ -60,9 +57,12 @@
 
 /* Small Device Media Tags Begin */
 @media (max-width: 516px) {
-    section {
-        padding: 10px 0;
-        height: 100%;
+    .results {
+        display: none;
+        top: 100%;
+        left: 0%;
+        transform: translate(0);
+        padding: 10px;
     }
     .lizzoStartImage {
         display: none;
