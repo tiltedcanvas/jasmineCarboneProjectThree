@@ -3,15 +3,13 @@ section {
     min-height: 100vh;
     
 }
-
 .flexInsideContainer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .answerImage {
-    width: 45%;
+    width: 50%;
 }
 .answerOptions {
     width: 50%;
@@ -30,13 +28,40 @@ section {
     background: $primaryWhite;
     position: absolute;
     width: 80%;
-    height: 300px;
+    height: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 50px;
     
 }
+.resultButtons {
+    display: flex;
+    justify-content: center;
+}
+.resultButtons button {
+    background: $lizzoPeach;
+    color: $primaryWhite;
+    text-align: center;
+    &:hover {
+        background: $lizzoPink;
+    }
+}
+
+.listen {
+    background: $lizzoPink;
+    color: $primaryWhite;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    &:hover {
+        background: $lizzoBlue;
+    }
+}
+
 //talk bubble css from css-tricks
+// this was a stretch goal. I did not finish it but I have left the code here so that I can complete it at a later time. I promise it has use and isn't here for nothing :( 
+    
 // .circular-sb {
 //     width: 250px;
 //     border: 5px solid $primaryWhite;

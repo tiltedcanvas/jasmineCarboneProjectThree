@@ -43,6 +43,31 @@ p {
     color: $primaryWhite;
 }
 
+h3 {
+    font-family: $secondaryFont;
+    font-size: 3rem;
+    color: $lizzoBlue;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h4 {
+    font-family: $baseFont;
+    font-size: 1rem;
+    color: $primaryBlack;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+.resultDescription {
+    padding: 20px;
+    font-family: $baseFont;
+    color: $primaryBlack;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
 .flexParent {
     display: flex;
     flex-direction: column;

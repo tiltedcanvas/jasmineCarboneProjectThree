@@ -36,14 +36,13 @@
         z-index: -1;
         opacity: 0;
     }
-
-
 .logo {
     width: 30%;
     margin: 0 auto;
     fill: $primaryWhite;
     padding-top: 50px;
 }
+
 button {
     border: 0;
     width: 250px;
@@ -73,7 +72,6 @@ button {
         color: $primaryWhite;
     }
 }
-
 .unWrapped {
     width: 100%;
     margin: 0 auto;
@@ -82,12 +80,8 @@ button {
     padding-top: 2%;
 }
 img {
-    height: 350px;
+    max-width: 100%;
     &:hover {
         transform: scaleX(-1);
     }
-}
-
-.slideInRight {
-    animation: slideInRight 3s;
 }
