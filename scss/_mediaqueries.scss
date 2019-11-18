@@ -23,13 +23,21 @@
 
 /* Medium Small Device Media Tags Starts */
 @media (max-width: 784px) { 
+    body {
+        border: 1px solid cyan;
+    }
     .wrapper {
         width: 90%;
     }
+
     form {
         width: 90%;
         padding: 30px;
     }
+
+    .flag {
+        display: none;
+        }
 
     .answerImage {
         display: none;
@@ -42,20 +50,25 @@
         margin: 30px auto;
     }
 
+    .results {
+        width: 100%;
+    }
+    
 }    
 
 /* Medium Small Device Media Tags Ends */
 
 /* Small Device Media Tags Begin */
-@media (max-width: 450px) {
+@media (max-width: 516px) {
+
+    body {
+        border: 1px solid deeppink;
+    }
     .lizzoStartImage {
         display: none;
     }
     .logo {
         width: 60%;
-    }
-    header {
-        height: 100vh;
     }
     h1 {
         font-size: 2rem;
@@ -70,16 +83,25 @@
         font-size: 1.4rem;
     }
 
+    h3 {
+        font-size: 1.8rem;
+    }
+    h4 {
+        font-size: .8rem;
+    }
+
+    .resultDescription {
+        font-size: .8rem;
+        letter-spacing: normal;
+        padding: 10px;
+    }
+
     .answerOptions {
         width: 100%;
     }
 
     button {
         width: 80%;
-    }
-
-.flag {
-    display: none;
     }
 
     .formRadio {
@@ -102,13 +124,16 @@
     } 
 
 
+
 }
 /* Small Device Media Tags Ends */
 
     
 /* Tiny Device Media Tags Begin If Needed */
-// @media (max-width: 320px) {
-
-// }
+@media (max-width: 420px) {
+body {
+    border: 1px solid red;
+}
+}
 /* Tiny Device Media Tags Ends */
     

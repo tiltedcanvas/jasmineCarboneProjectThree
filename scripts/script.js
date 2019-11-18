@@ -1,28 +1,28 @@
 // Song Array with descriptions, links to songs and score key.
 const songOptions = [
     {
-        name:'songOne',
+        class:'songOne',
         score: 0,
         label: 'Juice',
         url: 'https://youtu.be/XaCrQL_8eMY',
         description: 'You know that you are cute but did you also know that you are utterly pure and divine? Baby don\'t you ever let anyone dim your shine. You can blame it on the goose, the choose or the caboose, but it\'s certainly not your fault. You the whole damn meal, and that is perfection.'
     },
     {       
-        name:'songTwo',
+        class:'songTwo',
         score: 0,
         label: 'Soulmate',
         url: 'https://youtu.be/iQJ7b_xfF2s',
         description: 'True love isn\'t something you can buy yourself and you\'re out there proving that every dang day. Loving yourself is no easy task but you are rocking it. Baby, you get those extra fries cause life is hard sometimes, and you deserve to treat yourself! '
     },
     {        
-        name:'songThree',
+        class:'songThree',
         score: 0,
         label: 'Truth Hurts',
         url: 'https://youtu.be/P00HMxdsVZI',
         description: 'Well, you just took a Lizzo quizzo and turns out you ARE 100% that bitch, and baby thats the best way to be. Go get your nails done and feel good about who you are, because who YOU are is great and powerful and you get to set your own damn rules. '
     },
     {        
-        name:'songFour',
+        class:'songFour',
         score: 0,
         label: 'Good As Hell',
         url: 'https://youtu.be/xZdj3LM5X1M',
@@ -30,7 +30,7 @@ const songOptions = [
     },
 
     {        
-        name:'songFive',
+        class:'songFive',
         score: 0,
         label: 'Cuz I Love You',
         url: 'https://youtu.be/NqjPqsry7no',
@@ -41,7 +41,7 @@ const songOptions = [
 // 
 function updateScore(selectedAnswer) {
     selectedOption = songOptions.find(function(opt) {
-        return opt.name === selectedAnswer.name
+        return opt.class === selectedAnswer.class
     })
 
     // If selectedOption is not undefined, update the score
@@ -79,7 +79,8 @@ function displayResult(winner) {
     // displays the information from each section of the array on the highest scoring song
     popupText.html(`<h4>Your Lizzo Banger is</h4><h3>${winner.label}</h3>
     <p class="resultDescription">${winner.description}</p>
-    <a target="_blank" href="${winner.url}"><button class="listen">Listen now</button></a>`)
+    <a target="_blank" href="${winner.url}">
+    <button class="listen">Listen now</button></a>`)
     popup.show();
 }
 
